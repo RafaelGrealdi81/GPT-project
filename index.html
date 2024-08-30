@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Pembelajaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Kursus</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Selamat Datang di Platform Pembelajaran</h1>
+        <p>Belajar kapan saja, di mana saja</p>
+        <a href="courses.html" class="cta">Jelajahi Kursus</a>
+    </section>
+
+    <section class="description">
+        <h2>Tentang Platform Pembelajaran Kami</h2>
+        <p>Platform Pembelajaran kami adalah tempat untuk mempelajari berbagai keterampilan baru, dari pemrograman hingga desain grafis, dengan kurikulum yang dirancang oleh para ahli di bidangnya. Anda dapat mengakses kursus kapan saja dan dari mana saja, dan belajar dengan kecepatan Anda sendiri. Daftar sekarang untuk mulai belajar!</p>
+    </section>
+
+    <section class="courses">
+        <h2>Kursus Populer</h2>
+        <div class="course-card">
+            <h3>Belajar HTML & CSS</h3>
+            <p>Dasar-dasar pembangunan website menggunakan HTML dan CSS.</p>
+            <a href="course-details.html" class="btn">Lihat Detail</a>
+        </div>
+        <div class="course-card">
+            <h3>JavaScript untuk Pemula</h3>
+            <p>Menguasai dasar-dasar pemrograman JavaScript.</p>
+            <a href="course-details.html" class="btn">Lihat Detail</a>
+        </div>
+        <!-- Tambahkan lebih banyak kursus di sini -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Platform Pembelajaran. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Platform Pembelajaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Kursus</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        
+        <div class="social-login">
+            <p>Atau login dengan:</p>
+            <button id="facebook-login" class="btn facebook-btn">Login dengan Facebook</button>
+            <button id="google-login" class="btn google-btn">Login dengan Google</button>
+        </div>
+
+        <p>Belum punya akun? <a href="#">Daftar di sini</a></p>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursus - Platform Pembelajaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Kursus</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Daftar Kursus</h1>
+        <p>Pilih kursus yang sesuai dengan minat Anda dan mulailah belajar hari ini.</p>
+    </section>
+
+    <section class="courses">
+        <h2>Kursus Tersedia</h2>
+        <div class="course-card">
+            <h3>Belajar HTML & CSS</h3>
+            <p>Dasar-dasar pembangunan website menggunakan HTML dan CSS.</p>
+            <a href="course-details.html" class="btn">Lihat Detail</a>
+        </div>
+        <div class="course-card">
+            <h3>JavaScript untuk Pemula</h3>
+            <p>Menguasai dasar-dasar pemrograman JavaScript.</p>
+            <a href="course-details.html" class="btn">Lihat Detail</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Platform Pembelajaran. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Platform Pembelajaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Kursus</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Tentang Kami</h1>
+        <p>Pelajari lebih lanjut tentang misi dan tim di balik Platform Pembelajaran.</p>
+    </section>
+
+    <section class="description">
+        <h2>Misi Kami</h2>
+        <p>Misi kami adalah untuk menyediakan pendidikan berkualitas yang dapat diakses oleh siapa saja, kapan saja, dan di mana saja. Kami percaya bahwa pendidikan adalah kunci untuk membuka potensi penuh seseorang, dan kami berdedikasi untuk membantu Anda mencapai tujuan belajar Anda.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Platform Pembelajaran. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Platform Pembelajaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Kursus</a></li>
+               
+                <button id="logout-button" class="btn">Logout</button>
+</html>
